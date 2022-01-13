@@ -51,6 +51,9 @@ body{
 .text-right{
     text-align: right;
 }
+.text-center{
+    text-align: center;
+}
 
 
 /* Header */
@@ -90,5 +93,30 @@ body{
     margin-right: 12px;
 }
 .header-right-link:hover{
+    opacity: 0.7;
+}
+
+/* Section 1 */
+.section1-title{
+    margin: 0 auto 40px;
+    font-size: 72px;
+    line-height: 72px;
+    letter-spacing: -0.04em;
+    max-width: 730px;
+}
+.section1-btn{
+    margin-top: 6px;
+    display: inline-block;
+    background: #0047FF;
+    border-radius: 40px;
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 200px;
+    padding: 20px 40px;
+    color: #ffffff;
+    text-decoration: none;
+    transition: .5s;
+}
+.section1-btn:hover{
     opacity: 0.7;
 }
