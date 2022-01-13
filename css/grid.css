@@ -12,6 +12,7 @@
 .row{
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
     margin-left: -4px;
     margin-right: -4px;
 }
@@ -320,7 +321,10 @@
         flex: 0 0 8.33333%;
         max-width: 8.33333%;
     }
-    
+    .l-1-7{
+        flex: 0 0 14.166667%;
+        max-width: 14.166667%;
+    }
     .l-2{
         flex: 0 0 16.66667%;
         max-width: 16.66667%;
