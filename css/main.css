@@ -10,6 +10,8 @@
 html{
     font-family: "EuclidCircularA", sans-serif;
     scroll-behavior: smooth;
+}
+body{
     line-height: 1.5;
     font-size: 1rem;
     font-weight: 400;
@@ -46,6 +48,9 @@ html{
 .col-1{
     width: 100%;
 }
+.text-right{
+    text-align: right;
+}
 
 
 /* Header */
@@ -59,6 +64,31 @@ html{
     margin: auto;
 }
 .header-left{
-    font-size: 20px;
+    font-size: 19px;
     font-weight: bolder;
+    line-height: 30px;
+}
+.lineheight-header{
+    line-height: 47.6px;
+}
+.header-right-link{
+    display: flex;
+    float: right;
+    align-items: center;
+    text-decoration: none;
+    color: #0d6efd;
+    font-size: 20px;
+    letter-spacing: .5px;
+    transition: .5s;
+}
+.header-right-link::before{
+    content: '';
+    width: 30px;
+    height: 30px;
+    display: block;
+    background-image: url('../img/header-right.svg');
+    margin-right: 12px;
+}
+.header-right-link:hover{
+    opacity: 0.7;
 }
