@@ -8,7 +8,7 @@
 /* Common */
 
 html{
-    font-family: "EuclidCircularA", sans-serif;
+    font-family:"EuclidCircularA", sans-serif;
     scroll-behavior: smooth;
 }
 body{
@@ -53,6 +53,12 @@ body{
 }
 .text-center{
     text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.justify-between{
+    justify-content: space-between;
 }
 
 
@@ -119,4 +125,33 @@ body{
 }
 .section1-btn:hover{
     opacity: 0.7;
+}
+
+/* Section 2 */
+#section2{
+    margin-top: 170px;
+}
+.section2-title{
+    font-size: 48px;
+    line-height: 54px;
+    padding-bottom: 10px;
+}
+.section2-description{
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.52);
+    line-height: 34px;
+    margin: 0 auto 100px auto;
+    max-width: 600px;
+}
+.img1-section2{
+    margin-bottom: 200px;
+}
+.img2-section2{
+    width: 100%;
+}
+.section2-textleft{
+    font-size: 48px;
+    font-weight: 550;
+    line-height: 55px;
+    max-width: 451px;
 }
