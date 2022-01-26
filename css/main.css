@@ -66,6 +66,9 @@ body{
 .plr-35{
     padding: 0 35px !important;
 }
+.mb-80{
+    margin-bottom: 80px;
+}
 
 /* Header */
 #header{
@@ -136,7 +139,7 @@ body{
 #section2{
     margin-top: 170px;
 }
-.section2-title,.section3-title{
+.section2-title,.section3-title,.section4-title{
     font-size: 48px;
     line-height: 54px;
     padding-bottom: 10px;
@@ -184,4 +187,41 @@ body{
 }
 .section3-img{
    width: 100%;
+}
+/* Section4 */
+#section4{
+    margin-top: 170px;
+}
+.section4-title{
+    max-width: 569px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 45px;
+}
+.tab-list{
+    list-style: none;
+    padding: 0 20px;
+    background: rgba(0, 0, 0, 0.05);
+    width: 260px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 80px;
+    margin: auto;
+}
+.tab-pane{
+    padding: 20px 20px;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.4);
+    transition: .5s;
+    cursor: pointer;
+}
+.tab-pane.active{
+    color: #000;
+}
+.tab-pane:hover:not(.active){
+    color: rgba(0, 0, 0, 0.3);
+}
+.section4-main{
+    margin-top: 110px;
 }
