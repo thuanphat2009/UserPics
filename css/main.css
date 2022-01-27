@@ -228,3 +228,12 @@ body{
 .section4-main{
     margin-top: 110px;
 }
+.section4-img{
+    border-radius: 50%;
+    transition: .5s;
+}
+.section4-img:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    box-shadow: 0 30px 30px rgb(32 32 32 / 20%);
+}
