@@ -60,6 +60,9 @@ body{
 .justify-between{
     justify-content: space-between;
 }
+.jutify-center{
+    justify-content: center;
+}
 .mb-200{
     margin-bottom: 200px;
 }
