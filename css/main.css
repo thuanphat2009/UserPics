@@ -204,15 +204,27 @@ body{
 .tab-list{
     list-style: none;
     padding: 0 20px;
-    background: rgba(0, 0, 0, 0.05);
+    /* background: rgba(0, 0, 0, 0.05); */
     width: 260px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     border-radius: 80px;
     margin: auto;
-    position: sticky;
+    /* position: sticky; */
     top: 0;
+    background-color: rgba(241, 236, 255, 0.7);
+    backdrop-filter: blur(12px);
+    transition: all 0.3s ease-in-out;
+    z-index: 2;
+}
+.tab-list.scroll-tab{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin-top: 30px;
+    transition: all linear 2s;
 }
 .tab-pane{
     padding: 20px 20px;
