@@ -251,3 +251,35 @@ body{
     transform: scale(1.05);
     box-shadow: 0 30px 30px rgb(32 32 32 / 20%);
 }
+.box-sec4{
+    position: relative;
+    
+}
+.box-sec4:hover .list-pic{
+    opacity: 1;
+}
+.list-pic{
+    position: absolute;
+    top: -224px;
+    left: -20%;
+    padding: 50px;
+    border-radius: 30px;
+    background-color: #f8f8f8;
+    box-shadow: 0 2px 2px rgb(0 0 0 / 15%);
+    opacity: 0;
+    transition: .5s;
+}
+.list-pic::after{
+    content: "";
+    position: absolute;
+    width: 0; 
+    bottom: -15px;
+    left: 46%;
+    height: 0; 
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #f8f8f8;
+}
+.list-pic-img{
+    width: 250px;
+}
